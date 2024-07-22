@@ -1,27 +1,14 @@
 # vscode-settings
 
-1) Откройте терминал и создайте файл vs-extension.txt:
-    `touch vs-extension.txt`
-В файл vs-extension.txt скопируйте ваши vscode расширения:
-    >- alex-pattison.theme-cobalt3
-    >- fosshaas.fontsize-shortcuts
-    >- vscode-icons-team.vscode-icons
-    >- dbaeumer.vscode-eslint
-    >- esbenp.prettier-vscode
-    >- vunguyentuan.vscode-postcss
-    >- streetsidesoftware.code-spell-checker
-    >-yoavbls.pretty-ts-errors
-    >- adpyke.codesnap
-    >- rangav.vscode-thunder-client
-    >- dsznajder.es7-react-js-snippets
-    >- Prisma.prisma
-    >- bierner.markdown-mermaid
+1. Откройте терминал и создайте файл vs-extension.txt:
+   `touch vs-extension.txt`.
+   В файл vs-extension.txt скопируйте ваши vscode расширения: >- alex-pattison.theme-cobalt3 >- fosshaas.fontsize-shortcuts >- vscode-icons-team.vscode-icons >- dbaeumer.vscode-eslint >- esbenp.prettier-vscode >- vunguyentuan.vscode-postcss >- streetsidesoftware.code-spell-checker >-yoavbls.pretty-ts-errors >- adpyke.codesnap >- rangav.vscode-thunder-client >- dsznajder.es7-react-js-snippets >- Prisma.prisma >- bierner.markdown-mermaid
 
-2) Запустите скрипт для установки расширений:
+2. Запустите скрипт для установки расширений:
 
 `cat vs-extension.txt | xargs -L1 code --install-extension`
 
-3) Откройте в vscode файл settings.json (command+shift+P) и скопируйте в него настройки:
+3. Откройте в vscode файл settings.json (command+shift+P) и скопируйте в него настройки:
 
 ```
 {
@@ -148,9 +135,10 @@
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "editor.formatOnSave": true,
   }
-  ```
+```
 
-  Приятного кодинга)
+Приятного кодинга)
 
-  ![App Platorm](https://cs14.pikabu.ru/post_img/big/2023/07/03/1/1688339687161032319.jpg)
+![App Platorm](https://cs14.pikabu.ru/post_img/big/2023/07/03/1/1688339687161032319.jpg)
